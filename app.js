@@ -17,7 +17,6 @@ function toggleDone(span) {
   span.parentElement.classList.toggle('done');
   updateCounter();
 }
-}
 
 function deleteTask(btn) {
   btn.parentElement.remove();
@@ -39,7 +38,6 @@ function updateCounter() {
   document.getElementById('totalCount').textContent = total;
   document.getElementById('doneCount').textContent = done;
   document.getElementById('leftCount').textContent = left;
-}
 }
 
 document.getElementById('taskInput').addEventListener('keypress', function(e) {

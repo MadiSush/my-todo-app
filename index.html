@@ -1,4 +1,3 @@
-index.html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,6 +8,11 @@ index.html
 <body>
   <div class="container">
     <h1>📝 My To-Do List</h1>
+    <div class="counter">
+      <span id="totalCount">0</span> tasks &nbsp;|&nbsp;
+      <span id="doneCount">0</span> done &nbsp;|&nbsp;
+      <span id="leftCount">0</span> remaining
+    </div>
     <div class="input-row">
       <input type="text" id="taskInput" placeholder="Add a new task..." />
       <button onclick="addTask()">Add</button>
